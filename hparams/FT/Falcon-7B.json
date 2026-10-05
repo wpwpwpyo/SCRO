@@ -1,0 +1,17 @@
+{
+    "layers": [
+        20,21
+    ],
+    "num_steps": 25,
+    "ks_bs": 64,
+    "lr": 5e-4,
+    "weight_decay": 0,
+    "kl_factor": 0,
+    "norm_constraint": 1e-3,
+    "rewrite_module_tmp": "transformer.h.{}.mlp.dense_4h_to_h",
+    "layer_module_tmp": "transformer.h.{}",
+    "mlp_module_tmp": "transformer.h.{}.mlp",
+    "attn_module_tmp": "transformer.h.{}.self_attention",
+    "ln_f_module": "transformer.ln_f",
+    "lm_head_module": "lm_head"
+}
